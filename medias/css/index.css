@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #101319;
+	color: white;
+	font-family: Gabarito;
+}
+
+nav img {
+	width: 80px;
+	border-radius: 50%;
+	margin-left: 100px;
+}
+
+nav {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.63);
+	background-color: #000000;
+}
+
+.menu_choices ul {
+	display: flex;
+	gap: 40px;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.banner {
+	background-image: url(../images/Gen-4\ Turbo\ Car\ is\ driving\ down\ the\ road\,\ followed\ by\ a\ stopped\ shooting\ with\ a\ zooming\ in\ camera\ and\ some\ details\ shot\ 696053784.gif);
+	background-size: cover;
+	background-position: center;
+	height: 884px;
+	position: relative;
+}
+
+.banner h1 {
+	position: absolute;
+	font-size: 80px;
+	color: white;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.square {
+	text-align: center;
+	border: 2px solid white;
+	background-color: rgba(128, 128, 128, 0.527);
+	border-radius: 10px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.square h2 {
+	margin: 10px;
+}
+
+.discover {
+	border-radius: 999px;
+	width: auto !important;
+	font-size: 16px;
+	position: absolute;
+	top: 820px;
+	left: 100px;
+	background: rgb(101, 112, 129);
+	color: white;
+	padding: 12px 24px;
+	font-family: Gabarito;
+	text-align: center;
+	font-weight: 400;
+	box-shadow: rgba(101, 112, 129, 0) 0px 0px 0px 1px inset;
+	border: 0px;
+	box-sizing: border-box;
+	letter-spacing: 0px;
+	transition-property: color, background, box-shadow;
+	transition-timing-function: cubic-bezier(0.75, 0.02, 0.5, 1);
+	transition-duration: 250ms;
+	cursor: pointer;
+}
+
+.discover:hover {
+	background-color: rgb(44, 52, 63);
+	box-shadow: rgba(219, 223, 230, 0.2) 0px 0px 0px 1px inset;
+}
+
+.banner h2 {
+	position: absolute;
+	top: 690px;
+	left: 100px;
+	font-size: 40px;
+	font-weight: 100;
+	letter-spacing: 0px;
+}
+
+.banner h3 {
+	position: absolute;
+	top: 760px;
+	left: 100px;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0px;
+}
