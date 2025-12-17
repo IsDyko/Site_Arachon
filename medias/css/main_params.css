@@ -1,0 +1,119 @@
+/* ---MAIN CONTENT--- */
+
+html {
+	max-width: 1920px;
+	margin: auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #101319;
+	color: white;
+	font-family: Gabarito;
+}
+
+/* ---HEADER--- */
+
+nav img {
+	width: 80px;
+	border-radius: 50%;
+	margin-left: 100px;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	align-items: center;
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.63);
+	background-color: #000000;
+}
+
+.menu_choices ul {
+	display: flex;
+	gap: 40px;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.menu_choices ul li a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.63);
+}
+
+.menu_choices ul li a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.other_buttons {
+	margin-left: auto;
+	margin-right: 100px;
+	display: flex;
+	gap: 20px;
+}
+
+.loc {
+	border: 0px;
+	border-radius: 999px;
+	background-color: transparent;
+	color: white;
+	padding: 20px 40px;
+	font-family: Gabarito;
+	cursor: pointer;
+	transition-property: background-color, color, box-shadow;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.75, 0.02, 0.5, 1);
+	display: flex;
+	gap: 10px;
+}
+
+.signup {
+	border: 0px;
+	border-radius: 999px;
+	background-color: transparent;
+	color: white;
+	padding: 20px 20px;
+	font-size: 18px;
+	font-family: Gabarito;
+	cursor: pointer;
+	transition-property: background-color, color, box-shadow;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.75, 0.02, 0.5, 1);
+	display: flex;
+	gap: 10px;
+}
+
+.signup:hover {
+	background-color: rgb(44, 52, 63);
+	color: rgb(252, 252, 253);
+	box-shadow: rgba(219, 223, 230, 0.2) 0px 0px 0px 1px inset;
+}
+
+.loc i {
+	font-size: 18px;
+}
+
+.loc:hover {
+	background-color: rgb(44, 52, 63);
+	color: rgb(252, 252, 253);
+	box-shadow: rgba(219, 223, 230, 0.2) 0px 0px 0px 1px inset;
+}
+
+/* ---FOOTER--- */
+
+footer {
+	background-color: #000000;
+	color: rgba(255, 255, 255, 0.63);
+	text-align: center;
+	padding: 20px;
+	/* margin-top: 50px; */
+}
+
+footer i {
+	font-size: 24px;
+	margin: 0 10px;
+	cursor: pointer;
+}
