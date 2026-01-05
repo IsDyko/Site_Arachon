@@ -154,10 +154,15 @@ body.menu-open {
 	overflow: hidden;
 }
 
+.mobile_panel {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	width: 100%;
+}
 
 /* --- MOBILE --- */
 @media (max-width: 768px) {
-
 	nav {
 		height: 80px;
 		position: relative;
@@ -203,7 +208,7 @@ body.menu-open {
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
 	}
 
-	.menu_choices ul {
+	nav.open .mobile_panel .menu_choices ul {
 		display: flex;
 		flex-direction: column;
 		gap: 14px;
@@ -211,10 +216,11 @@ body.menu-open {
 		padding: 0;
 	}
 
-	.other_buttons {
+	nav.open .mobile_panel .other_buttons {
 		margin-top: 24px;
 		margin-left: 0;
 		margin-right: 0;
+
 		display: flex;
 		flex-direction: column;
 		gap: 12px;
