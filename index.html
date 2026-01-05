@@ -1,134 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="medias/css/index.css" />
-    <link rel="stylesheet" href="medias/css/main_params.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Gabarito+SemiCondensed:wght@400;500;600;700&family=Gabarito+Condensed:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Arachon</title>
-    <link
-      rel="icon"
-      href="medias/images/favicon-32x32.png"
-      type="image/x-icon"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <img src="medias/images/logotrans.png" alt="logo" class="logo" />
-        <button
-          class="hamburger"
-          aria-label="Ouvrir le menu"
-          aria-expanded="false"
-        >
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="mobile_panel">
-          <div class="menu_choices">
-            <ul>
-              <li><a href="./index.html">Accueil</a></li>
-              <li><a href="">Presentation</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="other_buttons">
-            <button class="loc">
-              <i class="fa-solid fa-location-dot"></i
-              ><span>Trouver un concessionnaire</span>
-            </button>
-            <button class="signup"><i class="fa-solid fa-user"></i></button>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class="banner">
-        <div class="desc_car">
-          <h1>Sportivité et élegance jusqu'à la dernière ligne.</h1>
-          <h3>La nouvelle Araco Sport à partir de 489.- par mois.¹</h3>
-          <div class="buttons">
-            <button class="discover">Découvrir maintenant</button>
-            <button class="order">Commander</button>
-          </div>
-        </div>
-      </div>
-      <div class="models">
-        <button data-filter="all">Tous nos modeles</button>
-        <button data-filter="electric">
-          <i class="fa-solid fa-plug"></i>Voitures Electriques
-        </button>
-        <button data-filter="sport">Sportives</button>
-        <button data-filter="suv">SUV</button>
-        <button data-filter="4wd">4WD</button>
-      </div>
-      <div class="card_models">
-        <!-- Sur JS -->
-      </div>
-      <div class="story">
-        <h2>Innovations et nouveautés depuis 1988...</h2>
-        <p>
-          Depuis 1988, nous repoussons les limites du design et de la
-          performance. Chaque modèle que nous créons incarne notre passion pour
-          l’innovation, notre expertise technique et notre vision d’un futur
-          automobile plus audacieux. Année après année, nous perfectionnons nos
-          technologies pour offrir des véhicules toujours plus élégants, fiables
-          et avant-gardistes.
-        </p>
-      </div>
-      <div class="first_section">
-        <div class="first_text">
-          <h2>Une passion commune...</h2>
-          <p>
-            Chez Arachon, nous croyons que chaque voiture est bien plus qu’un
-            simple moyen de transport. C’est une extension de votre
-            personnalité, un reflet de vos aspirations et un compagnon de route
-            fidèle. Notre engagement envers l’excellence se manifeste dans
-            chaque détail, chaque courbe et chaque innovation que nous intégrons
-            dans nos véhicules. Rejoignez-nous dans cette aventure passionnante
-            et découvrez comment Arachon transforme la conduite en une
-            expérience inoubliable.
-          </p>
-        </div>
-        <img
-          src="./medias/images/work_attendance.png"
-          alt="two people looking at a car"
-        />
-      </div>
-      <div class="second_section">
-        <img src="./medias/images/satisfaction.png" alt="car garage" />
-        <div class="second_text">
-          <h2>Votre satisfaction, notre priorité...</h2>
-          <p>
-            Chez Arachon, votre satisfaction est au cœur de notre mission. Nous
-            nous engageons à vous offrir non seulement des véhicules de qualité
-            exceptionnelle, mais aussi un service client irréprochable. Notre
-            équipe dévouée est là pour vous accompagner à chaque étape, de la
-            sélection de votre voiture idéale à l’entretien régulier et au-delà.
-            Nous valorisons votre confiance et travaillons sans relâche pour
-            dépasser vos attentes, car chez Arachon, votre satisfaction est
-            notre plus grande réussite.
-          </p>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <p>© 2025 Arachon. Tous droits réservés.</p>
-      <i class="fa-brands fa-facebook-f"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-instagram"></i>
-    </footer>
-    <script src="./scripts/index.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="medias/css/index.css" />
+		<link rel="stylesheet" href="medias/css/main_params.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Gabarito+SemiCondensed:wght@400;500;600;700&family=Gabarito+Condensed:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+			media="print"
+			onload="this.media='all'"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Arachon</title>
+		<link
+			rel="icon"
+			href="medias/images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<img src="medias/images/logotrans.webp" alt="logo" class="logo" />
+				<button
+					class="hamburger"
+					aria-label="Ouvrir le menu"
+					aria-expanded="false"
+				>
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<div class="mobile_panel">
+					<div class="menu_choices">
+						<ul>
+							<li><a href="./index.html">Accueil</a></li>
+							<li><a href="./presentation.html">Presentation</a></li>
+							<li><a href="./contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<div class="other_buttons">
+						<button class="loc">
+							<i class="fa-solid fa-location-dot"></i
+							><span>Trouver un concessionnaire</span>
+						</button>
+						<button class="signup"><i class="fa-solid fa-user"></i></button>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="banner">
+				<div class="desc_car">
+					<h1>Sportivité et élegance jusqu'à la dernière ligne.</h1>
+					<h2>La nouvelle Araco Sport à partir de 489.- par mois.¹</h2>
+					<div class="buttons">
+						<button class="discover">Découvrir maintenant</button>
+						<button class="order">Commander</button>
+					</div>
+				</div>
+			</div>
+			<div class="models">
+				<button data-filter="all">Tous nos modeles</button>
+				<button data-filter="electric">
+					<i class="fa-solid fa-plug"></i>Voitures Electriques
+				</button>
+				<button data-filter="sport">Sportives</button>
+				<button data-filter="suv">SUV</button>
+				<button data-filter="4wd">4WD</button>
+			</div>
+			<div class="card_models">
+				<!-- Sur JS -->
+			</div>
+			<div class="story">
+				<h2>Innovations et nouveautés depuis 1988...</h2>
+				<p>
+					Depuis 1988, nous repoussons les limites du design et de la
+					performance. Chaque modèle que nous créons incarne notre passion pour
+					l’innovation, notre expertise technique et notre vision d’un futur
+					automobile plus audacieux. Année après année, nous perfectionnons nos
+					technologies pour offrir des véhicules toujours plus élégants, fiables
+					et avant-gardistes.
+				</p>
+			</div>
+			<div class="first_section">
+				<div class="first_text">
+					<h2>Une passion commune...</h2>
+					<p>
+						Chez Arachon, nous croyons que chaque voiture est bien plus qu’un
+						simple moyen de transport. C’est une extension de votre
+						personnalité, un reflet de vos aspirations et un compagnon de route
+						fidèle. Notre engagement envers l’excellence se manifeste dans
+						chaque détail, chaque courbe et chaque innovation que nous intégrons
+						dans nos véhicules. Rejoignez-nous dans cette aventure passionnante
+						et découvrez comment Arachon transforme la conduite en une
+						expérience inoubliable.
+					</p>
+				</div>
+				<img
+					src="./medias/images/work_attendance.webp"
+					alt="two people looking at a car"
+				/>
+			</div>
+			<div class="second_section">
+				<img src="./medias/images/satisfaction.webp" alt="car garage" />
+				<div class="second_text">
+					<h2>Votre satisfaction, notre priorité...</h2>
+					<p>
+						Chez Arachon, votre satisfaction est au cœur de notre mission. Nous
+						nous engageons à vous offrir non seulement des véhicules de qualité
+						exceptionnelle, mais aussi un service client irréprochable. Notre
+						équipe dévouée est là pour vous accompagner à chaque étape, de la
+						sélection de votre voiture idéale à l’entretien régulier et au-delà.
+						Nous valorisons votre confiance et travaillons sans relâche pour
+						dépasser vos attentes, car chez Arachon, votre satisfaction est
+						notre plus grande réussite.
+					</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>© 2026 Arachon. Tous droits réservés.</p>
+			<div class="links">
+				<a href="./auteur.html">Auteur</a>
+				<a href="./contact.html">Contact</a>
+			</div>
+			<i class="fa-brands fa-facebook-f"></i>
+			<i class="fa-brands fa-x-twitter"></i>
+			<i class="fa-brands fa-instagram"></i>
+		</footer>
+		<script src="./scripts/index.js"></script>
+	</body>
 </html>

@@ -11,22 +11,22 @@ const carModels = [
 	{
 		name: "Sport",
 		type: "sport",
-		image: "./medias/images/car_side2-removebg-preview.png",
+		image: "./medias/images/car_side2-removebg-preview.webp",
 	},
 	{
 		name: "Panther",
 		type: "electric",
-		image: "./medias/images/car_side3-removebg-preview.png",
+		image: "./medias/images/car_side3-removebg-preview.webp",
 	},
 	{
 		name: "M",
 		type: "suv",
-		image: "./medias/images/car_side-removebg-preview.png",
+		image: "./medias/images/car_side-removebg-preview.webp",
 	},
 	{
 		name: "S7",
 		type: "4wd",
-		image: "./medias/images/car_side4-removebg-preview.png",
+		image: "./medias/images/car_side4-removebg-preview.webp",
 	},
 ];
 

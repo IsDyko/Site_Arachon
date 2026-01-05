@@ -1,0 +1,28 @@
+main {
+	display: flex;
+	min-height: calc(100svh - 234px);
+}
+
+h1,
+p {
+	text-align: center;
+}
+
+.presentation {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	h1,
+	p {
+		text-align: center;
+	}
+}

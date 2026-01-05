@@ -66,7 +66,7 @@
 	letter-spacing: 0px;
 }
 
-.desc_car h3 {
+.desc_car h2 {
 	margin: 5px 0 0 0;
 	font-size: 20px;
 	font-weight: 400;
@@ -159,9 +159,11 @@
 	width: 200px;
 	padding: 15px 20px;
 	gap: 10px;
-	background: linear-gradient(180deg,
-			var(--gradient-start) 0%,
-			var(--gradient-end) 100%);
+	background: linear-gradient(
+		180deg,
+		var(--gradient-start) 0%,
+		var(--gradient-end) 100%
+	);
 	box-shadow: rgb(44, 52, 63) 0px 0px 0px 1px inset;
 	border: none;
 }
@@ -287,7 +289,6 @@
 
 /* Responsive Mobile */
 @media (max-width: 768px) {
-
 	.banner {
 		height: 70svh;
 	}
@@ -295,7 +296,7 @@
 	.desc_car {
 		left: 50%;
 		transform: translateX(-50%);
-		bottom: 24px;
+		/* bottom: 24px; */
 		padding: 0 16px;
 		width: 100%;
 		text-align: center;
